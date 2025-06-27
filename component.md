@@ -3,7 +3,7 @@
 This document records each UI component used in the project.  All entries focus
 on structure first, allowing features to evolve over time. Whenever new
 components are introduced they should be added here and referenced in
-`layout.md`.
+`architecture.md`.
 
 ## Wallpaper
 - Renders the desktop background image chosen from configuration.
