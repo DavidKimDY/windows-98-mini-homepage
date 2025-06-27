@@ -10,7 +10,7 @@ This project aims to recreate a small homepage with a classic Windows 98 look. D
 4. Keep this README updated with milestones and goals.
 
 All markdown files serve as a shared medium for design discussions.
-The overall component hierarchy is documented in `layout.md` and each
+The overall component hierarchy is documented in `architecture.md` and each
 component is described in detail inside `component.md`.
 
 ## Architecture Overview
