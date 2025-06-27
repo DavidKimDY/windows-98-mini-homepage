@@ -32,3 +32,9 @@ component is described in detail inside `component.md`.
 1. **Data driven UI** – icon and window definitions come from config.
 2. **Component centric with abstracted state** – each part is independent but uses shared context.
 3. **Flexible structure first** – start with placeholder components to keep the architecture open.
+
+## Quick Start
+
+1. Run `tsc` to compile TypeScript sources.
+2. Open `index.html` in a browser to see **Hello World**.
+
