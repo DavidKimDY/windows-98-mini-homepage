@@ -8,6 +8,10 @@ declare module 'react' {
   export interface FC<P = {}> {
     (props: P): any;
   }
+  export function useEffect(
+    effect: () => void | (() => void),
+    deps?: any[]
+  ): void;
   const Fragment: any;
   export { Fragment };
 }
