@@ -15,11 +15,13 @@ body {
 .desktop {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 5rem);
+  grid-auto-rows: 5rem;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem;
   z-index: 10;
-  pointer-events: none;
 }
 
 .desktop-icon {

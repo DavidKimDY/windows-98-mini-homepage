@@ -1,8 +1,13 @@
 import React from 'react';
-const DesktopIcon: React.FC = () => (
+
+interface Props {
+  label: string;
+}
+
+const DesktopIcon: React.FC<Props> = ({ label }) => (
   <div className="desktop-icon">
-      <div className="icon-placeholder" />
-      <span style={{ fontSize: '12px', textAlign: 'center' }}>Notepad</span>
+    <div className="icon-placeholder" />
+    <span style={{ fontSize: '12px', textAlign: 'center' }}>{label}</span>
   </div>
 );
 
