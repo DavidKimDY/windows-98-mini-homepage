@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.wallpaper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #008080;
+  z-index: 0;
+}
+
+.desktop {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.icon-placeholder {
+  width: 32px;
+  height: 32px;
+  background: #0078d4;
+  margin-bottom: 0.25rem;
+}
+
+.window-area {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.window-modal {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  width: 16rem;
+  border: 1px solid #000;
+  background: #f0f0f0;
+  z-index: 20;
+}
+
+.window-modal .title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0078d4;
+  color: #fff;
+  padding: 0 0.5rem;
+  height: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.window-modal .close-btn {
+  width: 1rem;
+  height: 1rem;
+  background: #ff5555;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  border: none;
+}
+
+.window-modal .content {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  background: #c0c0c0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  z-index: 20;
+}

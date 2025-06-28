@@ -1,5 +1,10 @@
-const root = document.getElementById('root');
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import AppLayout from './layout/AppLayout';
 
-if (root) {
-  root.textContent = 'Hello World';
+const rootEl = document.getElementById('root');
+
+if (rootEl) {
+  const root = ReactDOM.createRoot(rootEl);
+  root.render(<AppLayout />);
 }
