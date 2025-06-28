@@ -45,6 +45,7 @@ src/
 ├── assets/                # 이미지, 폰트, 아이콘 등 정적 리소스
 │   ├── wallpapers/
 │   ├── icons/
+│   ├── images/
 │   └── cursors/
 │
 ├── components/            # 재사용 가능한 UI 컴포넌트
@@ -114,5 +115,6 @@ src/
 | -------------------- | -------------------- |
 | `assets/wallpapers/` | 기본 배경화면 이미지 1장 |
 | `assets/icons/` | 메모장 아이콘 1개 |
+| `assets/images/` | 기타 이미지 보관 |
 | `styles/global.css` | 배경화면 전체 스타일, reset 등 |
 
