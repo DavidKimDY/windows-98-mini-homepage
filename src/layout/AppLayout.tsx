@@ -8,7 +8,7 @@ import StartMenu from '../components/StartMenu/StartMenu';
 
 const AppLayout: React.FC = () => {
   const [showMenu, setShowMenu] = React.useState(false);
-  const toggleMenu = () => setShowMenu((v) => !v);
+  const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
