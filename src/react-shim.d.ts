@@ -12,6 +12,7 @@ declare module 'react' {
     effect: () => void | (() => void),
     deps?: any[]
   ): void;
+  export function useState<T>(init: T): [T, (v: T) => void];
   const Fragment: any;
   export { Fragment };
 }

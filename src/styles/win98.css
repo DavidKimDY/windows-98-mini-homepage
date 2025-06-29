@@ -16,8 +16,9 @@ body {
   position: absolute;
   inset: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 5rem);
-  grid-auto-rows: 5rem;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(auto-fill, 5rem);
+  grid-auto-columns: 5rem;
   align-content: flex-start;
   justify-content: flex-start;
   padding: 0.5rem;
@@ -39,10 +40,9 @@ body {
   font-size: 12px;
   text-align: left;
 }
-.icon-placeholder {
+.desktop-icon .icon-image {
   width: 32px;
   height: 32px;
-  background: #0078d4;
   margin-bottom: 0.25rem;
 }
 
@@ -103,4 +103,27 @@ body {
   align-items: center;
   padding: 0 0.5rem;
   z-index: 20;
+}
+
+.start-button {
+  font-size: 0.875rem;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  margin-right: 0.5rem;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #404040;
+  border-right: 2px solid #404040;
+  background: #c0c0c0;
+}
+
+.time-display {
+  margin-left: auto;
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  background: #000;
+  color: #fff;
 }

@@ -1,10 +1,7 @@
 import React from 'react';
-import WindowModal from '../WindowModal/WindowModal';
 
 const WindowArea: React.FC = () => (
-  <div className="window-area">
-      <WindowModal />
-    </div>
+  <div className="window-area" />
 );
 
 export default WindowArea;
