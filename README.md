@@ -8,6 +8,7 @@ This project aims to recreate a small homepage with a classic Windows 98 look. D
 2. Use modular UI components such as the taskbar, start menu and windows.
 3. Write design details for each component in `component.md` before coding.
 4. Keep this README updated with milestones and goals.
+5. Store project images inside `src/assets/images/`.
 
 All markdown files serve as a shared medium for design discussions.
 The overall component hierarchy is documented in `architecture.md` and each
