@@ -1,7 +1,11 @@
 import React from 'react';
 
-const StartButton: React.FC = () => (
-  <button type="button" className="start-button">시작</button>
+interface Props {
+  onClick: () => void;
+}
+
+const StartButton: React.FC<Props> = ({ onClick }) => (
+  <button type="button" className="start-button" onClick={onClick}>시작</button>
 );
 
 export default StartButton;
