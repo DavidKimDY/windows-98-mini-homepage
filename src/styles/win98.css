@@ -33,6 +33,11 @@ body {
   border: none;
   background: transparent;
   padding: 0;
+  cursor: pointer;
+}
+.desktop-icon .icon-label {
+  font-size: 12px;
+  text-align: left;
 }
 .icon-placeholder {
   width: 32px;
