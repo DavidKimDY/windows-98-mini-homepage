@@ -2,9 +2,13 @@ import React from 'react';
 import StartButton from './StartButton';
 import TimeDisplay from './TimeDisplay';
 
-const Taskbar: React.FC = () => (
+interface Props {
+  onStartClick: () => void;
+}
+
+const Taskbar: React.FC<Props> = ({ onStartClick }) => (
   <div className="taskbar">
-    <StartButton />
+    <StartButton onClick={onStartClick} />
     <div style={{ flexGrow: 1 }} />
     <TimeDisplay />
   </div>

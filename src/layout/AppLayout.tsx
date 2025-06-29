@@ -6,15 +6,20 @@ import Taskbar from '../components/Taskbar/Taskbar';
 import PointerTheme from '../components/PointerTheme/PointerTheme';
 import StartMenu from '../components/StartMenu/StartMenu';
 
-const AppLayout: React.FC = () => (
-  <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
-    <Wallpaper />
-    <Desktop />
-    <WindowArea />
-    <Taskbar />
-    <StartMenu />
-    <PointerTheme />
-  </div>
-);
+const AppLayout: React.FC = () => {
+  const [showMenu, setShowMenu] = React.useState(false);
+  const toggleMenu = () => setShowMenu((v) => !v);
+
+  return (
+    <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
+      <Wallpaper />
+      <Desktop />
+      <WindowArea />
+      <Taskbar onStartClick={toggleMenu} />
+      {showMenu && <StartMenu />}
+      <PointerTheme />
+    </div>
+  );
+};
 
 export default AppLayout;
