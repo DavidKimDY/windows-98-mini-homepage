@@ -106,6 +106,8 @@ body {
 }
 
 .start-button {
+  display: flex;
+  align-items: center;
   font-size: 0.875rem;
   height: 1.5rem;
   padding: 0 0.5rem;
@@ -115,6 +117,12 @@ body {
   border-bottom: 2px solid #404040;
   border-right: 2px solid #404040;
   background: #c0c0c0;
+}
+
+.start-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25rem;
 }
 
 .time-display {
