@@ -38,6 +38,9 @@ components are introduced they should be added here and referenced in
 
 ## StartMenu
 - Pop-up menu for launching programs or opening links defined in config.
+- Left sidebar shows vertical "Windows" text on a navy background.
+- Menu items list icons and labels; hover turns the row deep blue.
+- For now it renders statically above the Start button.
 
 ## ContextMenu
 - Right-click menu providing actions based on the clicked area.
