@@ -20,8 +20,10 @@ components are introduced they should be added here and referenced in
 - Manages z-index stacking and window positioning via context.
 
 ## WindowModal
-- Classic Windows 98 style window.
-- Receives content and controls from props.
+- Displays only the title and status bars of a window.
+- Title bar shows an icon, label and three control buttons.
+- Status bar contains help text and a drag handle graphic.
+- Receives `title` and `onClose` props for dynamic use.
 
 ## Taskbar
 - Fixed bar at the bottom of the screen.

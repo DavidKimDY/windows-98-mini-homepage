@@ -9,12 +9,15 @@ import StartMenu from '../components/StartMenu/StartMenu';
 const AppLayout: React.FC = () => {
   const [showMenu, setShowMenu] = React.useState(false);
   const toggleMenu = () => setShowMenu(!showMenu);
+  const [activeTitle, setActiveTitle] = React.useState<string | null>(null);
+  const handleOpen = (title: string) => setActiveTitle(title);
+  const handleClose = () => setActiveTitle(null);
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
       <Wallpaper />
-      <Desktop />
-      <WindowArea />
+      <Desktop onOpen={handleOpen} />
+      <WindowArea title={activeTitle} onClose={handleClose} />
       <Taskbar onStartClick={toggleMenu} />
       {showMenu && <StartMenu />}
       <PointerTheme />

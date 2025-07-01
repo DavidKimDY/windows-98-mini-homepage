@@ -29,7 +29,9 @@ props or state requirements.
 
 ## [1] WindowModal 구조
 - 각 모달 창은 WindowModal 컴포넌트로 구성
+- 상단 TitleBar와 하단 StatusBar만 표시하며 중앙 영역은 비어 있음
 - 내부 콘텐츠는 appType에 따라 분기 렌더링
+- 아이콘 클릭 시 전달되는 제목을 TitleBar에 표시
 - 각 앱은 src/apps/ 폴더에 개별 컴포넌트로 관리
 
 ## [2] 상태 관리
@@ -102,7 +104,7 @@ src/
 | `Wallpaper` | 배경화면 이미지 렌더링 |
 | `Desktop` | 아이콘 표시, 우클릭 감지 |
 | `DesktopIcon` | 클릭 시 모달 or 페이지 이동 |
-| `WindowModal` | 창 UI (기본 위치, 드래그, 닫기) |
+| `WindowModal` | 창 UI 틀 (TitleBar과 StatusBar 제공) |
 | `Taskbar` | 시작 버튼, 열린 창 표시 |
 | `StartMenu` | 클릭 시 열림/닫힘 |
 | `ContextMenu` | 우클릭 시 등장 (메뉴는 빈 껍데기 가능) |
