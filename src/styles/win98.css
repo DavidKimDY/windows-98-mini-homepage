@@ -17,8 +17,8 @@ body {
   inset: 0;
   display: grid;
   grid-auto-flow: column;
-  grid-template-rows: repeat(auto-fill, 5rem);
-  grid-auto-columns: 5rem;
+  grid-template-rows: repeat(auto-fill, 6rem);
+  grid-auto-columns: 6rem;
   align-content: flex-start;
   justify-content: flex-start;
   padding: 0.5rem;
@@ -37,13 +37,13 @@ body {
   cursor: pointer;
 }
 .desktop-icon .icon-label {
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
 }
 .desktop-icon .icon-image {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 0.25rem;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
 }
 
 .window-area {
@@ -71,7 +71,7 @@ body {
   color: #fff;
   padding: 0 0.5rem;
   height: 1.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .window-modal .close-btn {
@@ -81,13 +81,13 @@ body {
   color: #fff;
   text-align: center;
   line-height: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   border: none;
 }
 
 .window-modal .content {
   padding: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .taskbar {
@@ -108,7 +108,7 @@ body {
 .start-button {
   display: flex;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
   height: 1.5rem;
   padding: 0 0.5rem;
   margin-right: 0.5rem;
@@ -120,14 +120,14 @@ body {
 }
 
 .start-icon {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   margin-right: 0.25rem;
 }
 
 .time-display {
   margin-left: auto;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   padding: 0 0.5rem;
   height: 1.25rem;
   display: flex;
@@ -163,7 +163,7 @@ body {
 .start-menu-bar .bar-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .start-menu-list {
@@ -176,9 +176,9 @@ body {
 .start-menu-item {
   display: flex;
   align-items: center;
-  height: 24px;
+  height: 28px;
   padding: 0 8px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: default;
 }
 
@@ -188,8 +188,8 @@ body {
 }
 
 .item-icon {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background: #808080;
   margin-right: 8px;
 }
