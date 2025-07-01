@@ -24,6 +24,7 @@ const WindowModal: React.FC<Props> = ({ title, onClose }) => (
         </button>
       </div>
     </div>
+    <div className="window-content" />
     <div className="status-bar">
       <span>Shows or hides an Explorer bar.</span>
       <div className="status-handle" />

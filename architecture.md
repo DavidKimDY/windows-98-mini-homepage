@@ -29,7 +29,7 @@ props or state requirements.
 
 ## [1] WindowModal 구조
 - 각 모달 창은 WindowModal 컴포넌트로 구성
-- 상단 TitleBar와 하단 StatusBar만 표시하며 중앙 영역은 비어 있음
+- 상단 TitleBar와 하단 StatusBar 사이에 흰색 배경 영역을 배치
 - 내부 콘텐츠는 appType에 따라 분기 렌더링
 - 아이콘 클릭 시 전달되는 제목을 TitleBar에 표시
 - 각 앱은 src/apps/ 폴더에 개별 컴포넌트로 관리

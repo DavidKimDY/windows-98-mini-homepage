@@ -20,7 +20,7 @@ components are introduced they should be added here and referenced in
 - Manages z-index stacking and window positioning via context.
 
 ## WindowModal
-- Displays only the title and status bars of a window.
+- Displays the title bar, a blank white content area and the status bar.
 - Title bar shows an icon, label and three control buttons.
 - Status bar contains help text and a drag handle graphic.
 - Receives `title` and `onClose` props for dynamic use.
