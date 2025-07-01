@@ -9,7 +9,7 @@ interface Props {
 const DesktopIcon: React.FC<Props> = ({ label, icon, href }) => {
   const handleClick = () => {
     if (href) {
-      window.open(href);
+      window.open(href, '_blank');
     } else {
       alert(label);
     }
