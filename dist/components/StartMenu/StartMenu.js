@@ -1,17 +1,3 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const StartMenu = () => (_jsxs("div", { className: "start-menu", children: [
-  _jsxs("div", { className: "start-menu-bar", children: _jsx("span", { className: "bar-text", children: "Windows" }) }),
-  _jsxs("ul", { className: "start-menu-list", children: [
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uD504\uB85C\uADF8\uB7A8(P) ", _jsx("span", { className: "item-arrow" })] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC990\uACA8\uCC3E\uAE30(A) ", _jsx("span", { className: "item-arrow" })] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uBB38\uC11C(D)"] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC124\uC815(S) ", _jsx("span", { className: "item-arrow" })] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uCC3E\uAE30(F)"] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uB3C4\uC6B8\uB9D0(H)"] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC2E4\uD589(R)"] }),
-    _jsx("hr", { className: "start-menu-separator" }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uB85C\uADF8\uC624\uD504(L)"] }),
-    _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC2DC\uC2A4\uD15C \uC885\uB8CC(U)"] })
-  ] })
-] }));
+const StartMenu = () => (_jsxs("div", { className: "start-menu", children: [_jsx("div", { className: "start-menu-bar", children: _jsx("span", { className: "bar-text", children: "Windows" }) }), _jsxs("ul", { className: "start-menu-list", children: [_jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uD504\uB85C\uADF8\uB7A8(P)  ", _jsx("span", { className: "item-arrow" })] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC990\uACA8\uCC3E\uAE30(A)  ", _jsx("span", { className: "item-arrow" })] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uBB38\uC11C(D)"] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC124\uC815(S) ", _jsx("span", { className: "item-arrow" })] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uCC3E\uAE30(F)"] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uB3C4\uC6C0\uB9D0(H)"] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC2E4\uD589(R)"] }), _jsx("hr", { className: "start-menu-separator" }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uB85C\uADF8\uC624\uD504(L)"] }), _jsxs("li", { className: "start-menu-item", children: [_jsx("span", { className: "item-icon" }), "\uC2DC\uC2A4\uD15C \uC885\uB8CC(U)"] })] })] }));
 export default StartMenu;
