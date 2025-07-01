@@ -31,6 +31,7 @@ props or state requirements.
 - 각 모달 창은 WindowModal 컴포넌트로 구성
 - 상단 TitleBar와 하단 StatusBar만 표시하며 중앙 영역은 비어 있음
 - 내부 콘텐츠는 appType에 따라 분기 렌더링
+- 아이콘 클릭 시 전달되는 제목을 TitleBar에 표시
 - 각 앱은 src/apps/ 폴더에 개별 컴포넌트로 관리
 
 ## [2] 상태 관리

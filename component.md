@@ -23,6 +23,7 @@ components are introduced they should be added here and referenced in
 - Displays only the title and status bars of a window.
 - Title bar shows an icon, label and three control buttons.
 - Status bar contains help text and a drag handle graphic.
+- Receives `title` and `onClose` props for dynamic use.
 
 ## Taskbar
 - Fixed bar at the bottom of the screen.
