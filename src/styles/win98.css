@@ -211,12 +211,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-left: 1px solid #00ffff;
+  border-right: 1px solid #c0c0c0;
 }
 
 .start-menu-bar .bar-text {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
   font-size: 14px;
+  white-space: nowrap;
+  text-shadow: 0 0 1px #000;
 }
 
 .start-menu-list {
