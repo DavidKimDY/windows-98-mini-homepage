@@ -3,7 +3,7 @@ import React from 'react';
 const StartMenu: React.FC = () => (
   <div className="start-menu">
     <div className="start-menu-bar">
-      <span className="bar-text">Windows</span>
+      <span className="bar-text">Windows98</span>
     </div>
     <ul className="start-menu-list">
       <li className="start-menu-item"><span className="item-icon" />프로그램(P)  <span className="item-arrow" /></li>
