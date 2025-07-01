@@ -6,10 +6,10 @@ const StartMenu: React.FC = () => (
       <span className="bar-text">Windows</span>
     </div>
     <ul className="start-menu-list">
-      <li className="start-menu-item"><span className="item-icon" />프로그램(P)  <span className="item-arrow">▶</span></li>
-      <li className="start-menu-item"><span className="item-icon" />즐겨찾기(A)  <span className="item-arrow">▶</span></li>
+      <li className="start-menu-item"><span className="item-icon" />프로그램(P)  <span className="item-arrow" /></li>
+      <li className="start-menu-item"><span className="item-icon" />즐겨찾기(A)  <span className="item-arrow" /></li>
       <li className="start-menu-item"><span className="item-icon" />문서(D)</li>
-      <li className="start-menu-item"><span className="item-icon" />설정(S) <span className="item-arrow">▶</span></li>
+      <li className="start-menu-item"><span className="item-icon" />설정(S) <span className="item-arrow" /></li>
       <li className="start-menu-item"><span className="item-icon" />찾기(F)</li>
       <li className="start-menu-item"><span className="item-icon" />도움말(H)</li>
       <li className="start-menu-item"><span className="item-icon" />실행(R)</li>

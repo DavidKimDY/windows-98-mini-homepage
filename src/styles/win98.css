@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow: hidden;
+  color: #000;
 }
 
 .wallpaper {
@@ -39,6 +40,7 @@ body {
 .desktop-icon .icon-label {
   font-size: 14px;
   text-align: left;
+  color: #000;
 }
 .desktop-icon .icon-image {
   width: 48px;
@@ -117,6 +119,7 @@ body {
   border-bottom: 2px solid #404040;
   border-right: 2px solid #404040;
   background: #c0c0c0;
+  color: #000;
 }
 
 .start-icon {
@@ -180,6 +183,7 @@ body {
   padding: 0 8px;
   font-size: 16px;
   cursor: default;
+  color: #000;
 }
 
 .start-menu-item:hover {
@@ -196,6 +200,15 @@ body {
 
 .item-arrow {
   margin-left: auto;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #000;
+}
+
+.start-menu-item:hover .item-arrow {
+  border-left-color: #fff;
 }
 
 .start-menu-separator {
