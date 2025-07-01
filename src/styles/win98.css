@@ -57,9 +57,13 @@ body {
   position: absolute;
   top: 5rem;
   left: 5rem;
-  width: 16rem;
-  border: 1px solid #000;
-  background: #f0f0f0;
+  width: 18rem;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #404040;
+  border-right: 2px solid #404040;
+  font-family: 'MS Sans Serif', sans-serif;
   z-index: 20;
 }
 
@@ -67,27 +71,68 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0078d4;
+  background: #000080;
   color: #fff;
-  padding: 0 0.5rem;
-  height: 1.5rem;
-  font-size: 1rem;
+  padding: 2px 4px;
+  height: 18px;
+  cursor: move;
 }
 
-.window-modal .close-btn {
-  width: 1rem;
-  height: 1rem;
-  background: #ff5555;
-  color: #fff;
-  text-align: center;
-  line-height: 1rem;
-  font-size: 0.875rem;
-  border: none;
+.title-bar .title {
+  display: flex;
+  align-items: center;
 }
 
-.window-modal .content {
-  padding: 0.5rem;
-  font-size: 1rem;
+.title-bar .window-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background: #808080;
+}
+
+.window-controls {
+  display: flex;
+}
+
+.title-bar-button {
+  width: 16px;
+  height: 14px;
+  margin-left: 2px;
+  padding: 0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #404040;
+  border-right: 1px solid #404040;
+  background: #c0c0c0;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.title-bar-button:active {
+  border-top: 1px solid #404040;
+  border-left: 1px solid #404040;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  padding: 0 4px;
+  background: #c0c0c0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #404040;
+  border-right: 1px solid #404040;
+  font-size: 12px;
+}
+
+.status-handle {
+  width: 40px;
+  height: 12px;
+  background-image: repeating-linear-gradient(135deg, #808080 0, #808080 1px, #c0c0c0 1px, #c0c0c0 2px);
 }
 
 .taskbar {
