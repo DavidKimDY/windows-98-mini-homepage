@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.js",
-    "fix-imports": "node scripts/add-js-extension.js"
+    "fix-imports": "node scripts/add-js-extension.js",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "react": "18.2.0",
@@ -11,6 +12,10 @@
   },
   "devDependencies": {
     "esbuild": "0.20.0",
-    "typescript": "5.4.0"
+    "typescript": "5.4.0",
+    "eslint": "8.57.0",
+    "@typescript-eslint/parser": "6.21.0",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "eslint-plugin-react": "7.33.2"
   }
 }

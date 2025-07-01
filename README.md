@@ -38,5 +38,6 @@ component is described in detail inside `component.md`.
 
 1. Run `tsc` to compile TypeScript sources.
 2. Run `npm run fix-imports` to ensure JS modules use `.js` extensions.
-3. Open `index.html` in a browser to see **Hello World**.
+3. Run `npm run lint` to check code quality.
+4. Open `index.html` in a browser to see **Hello World**.
 
