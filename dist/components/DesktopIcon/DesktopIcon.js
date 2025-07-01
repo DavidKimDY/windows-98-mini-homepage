@@ -1,8 +1,11 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const DesktopIcon = ({ label, icon, href }) => {
+const DesktopIcon = ({ label, icon, href, onOpen }) => {
     const handleClick = () => {
         if (href) {
             window.open(href, '_blank');
+        }
+        else if (onOpen) {
+            onOpen();
         }
         else {
             alert(label);
