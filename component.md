@@ -36,7 +36,8 @@ components are introduced they should be added here and referenced in
 - Displays currently open windows for quick switching.
 
 ### TimeDisplay
-- Shows the current time, formatted like the original OS clock.
+- Shows the current time in a small tray box with a 2px bevel.
+- Hovering the clock reveals the full date as a tooltip.
 
 ## StartMenu
 - Pop-up menu for launching programs or opening links defined in config.
