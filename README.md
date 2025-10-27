@@ -2,6 +2,8 @@
 
 This project aims to recreate a small homepage with a classic Windows 98 look. Documentation lives alongside code so both humans and the AI can follow the design.
 
+If you want to check, <a href="https://davidkimdy.github.io/windows-98-mini-homepage/" target="_blank">Visit Here</a>
+
 ## Development Plan
 
 1. Set up the base HTML layout with a Windows 98 theme.
